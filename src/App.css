@@ -67,12 +67,13 @@ main {
   height: 60px;
   background-color: white;
   font-family: "Montserrat", sans-serif;
-  /* border: none; */
+  border: none;
 }
 
 .counterButtons > button > p {
   font-family: "Montserrat", sans-serif;
   font-size: 50px;
+  text-align: center;
 }
 
 .reset {
@@ -83,7 +84,7 @@ main {
   border-radius: 15px;
   background-color: #5c48d3;
   color: white;
-  /* border: none; */
+  border: none;
 }
 
 .counter {

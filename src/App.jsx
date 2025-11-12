@@ -23,7 +23,7 @@ function App() {
               setCounter(counter - 1);
             }}
           >
-            <p>-</p>
+            {counter === 0 ? <p></p> : <p>-</p>}
           </button>
           <p className="counter">{counter}</p>
           <button
@@ -31,7 +31,7 @@ function App() {
               setCounter(counter + 1);
             }}
           >
-            <p>+</p>
+            {counter === 10 ? <p></p> : <p>+</p>}
           </button>
         </div>
         <div>
